@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biodata"
+        android:fontFamily="serif-monospace"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="77dp"
+        android:src="@drawable/anom" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="NIM" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1.75"
+            android:text="     :A11.2021.13485" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="Nama" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:text="         :Anom Innadanuansyah" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="Hobby" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="4.35"
+            android:text="  :Futsal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="0.5"
+            android:fontFamily="serif"
+            android:text="Deskripsi Singkat"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0.5"
+            android:text="  :Mahasiswa UDINUIS TI" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="Alamat:" />
+        <Button
+            android:layout_width="252dp"
+            android:layout_height="47dp"
+            android:text="click to map"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="389dp"
+            android:onClick="showMap"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="0.5"
+            android:text="Telepon:" />
+
+        <Button
+            android:layout_width="252dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:text="click to call"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="389dp"
+            android:onClick="cellphone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1.75"
+            android:text="Email:" />
+
+        <Button
+            android:layout_width="252dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:text="click to mail"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="389dp"
+            android:onClick="email"/>
+
+    </LinearLayout>
+
+</LinearLayout>
